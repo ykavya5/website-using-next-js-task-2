@@ -124,12 +124,7 @@ export default function Home() {
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title>NextPro | Home-3</title>
-                <link rel="icon" type="image/png" href="/public/assets/images/fav-icon.png" />
-                <link rel="stylesheet" href="stylebuilt.css" />
-                <link
-                    rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-                />
+                
             </Head>
             <div>
                 <div>
@@ -184,8 +179,8 @@ export default function Home() {
                                 <div className="section-header__logo">
                                     <div className="section-header__logo-inner">
                                         <a href="index1.html" className="logo" aria-label="logo">
-                                            <img src="assets/images/logo-next.png" className="logo-dark" alt="next-logo" />
-                                            <img src="assets/images/logo-light.png" className="logo-light" alt="next-logo-light" />
+                                            <Image src="assets/images/logo-next.png" className="logo-dark" alt="next-logo" />
+                                            <Image src="assets/images/logo-light.png" className="logo-light" alt="next-logo-light" />
                                         </a>
                                     </div>
                                 </div>
@@ -197,7 +192,7 @@ export default function Home() {
                                                 <li className="home-showcase__card">
                                                     <div className="home-showcase__image">
                                                         <a href="index1.html" aria-label="page link">
-                                                            <img src="assets/images/home-showcase/home-showcase-1.jpg" alt="nextmarketing" />
+                                                            <Image src="assets/images/home-showcase/home-showcase-1.jpg" alt="nextmarketing" />
                                                         </a>
                                                     </div>
                                                     <div className="home-showcase__content">
@@ -209,7 +204,7 @@ export default function Home() {
                                                 <li className="home-showcase__card">
                                                     <div className="home-showcase__image">
                                                         <a href="index2.html" aria-label="page link">
-                                                            <img src="assets/images/home-showcase/home-showcase-2.jpg" alt="nextmarketing" />
+                                                            <Image src="assets/images/home-showcase/home-showcase-2.jpg" alt="nextmarketing" />
                                                         </a>
                                                     </div>
                                                     <div className="home-showcase__content">
@@ -222,7 +217,7 @@ export default function Home() {
                                                 <li className="home-showcase__card">
                                                     <div className="home-showcase__image">
                                                         <a href="index3.html" aria-label="page link">
-                                                            <img src="assets/images/home-showcase/home-showcase-3.jpg" alt="nextmarketing" />
+                                                            <Image src="assets/images/home-showcase/home-showcase-3.jpg" alt="nextmarketing" />
                                                         </a>
                                                     </div>
                                                     <div className="home-showcase__content">
@@ -234,7 +229,7 @@ export default function Home() {
                                                 <li className="home-showcase__card">
                                                     <div className="home-showcase__image">
                                                         <a href="index4.html" aria-label="page link">
-                                                            <img src="assets/images/home-showcase/home-showcase-4.jpg" alt="nextmarketing" />
+                                                            <Image src="assets/images/home-showcase/home-showcase-4.jpg" alt="nextmarketing" />
                                                         </a>
                                                     </div>
                                                     <div className="home-showcase__content">
@@ -246,7 +241,7 @@ export default function Home() {
                                                 <li className="home-showcase__card">
                                                     <div className="home-showcase__image">
                                                         <a href="index5.html" aria-label="page link">
-                                                            <img src="assets/images/home-showcase/home-showcase-5.jpg" alt="nextmarketing" />
+                                                            <Image src="assets/images/home-showcase/home-showcase-5.jpg" alt="nextmarketing" />
                                                         </a>
                                                     </div>
                                                     <div className="home-showcase__content">
@@ -259,7 +254,7 @@ export default function Home() {
                                                 <li className="home-showcase__card">
                                                     <div className="home-showcase__image">
                                                         <a href="index1.html" aria-label="page link">
-                                                            <img src="assets/images/home-showcase/up-coming-showcase.png" alt="nextmarketing" />
+                                                            <Image src="assets/images/home-showcase/up-coming-showcase.png" alt="nextmarketing" />
                                                         </a>
                                                     </div>
                                                     <div className="home-showcase__content">
@@ -369,7 +364,7 @@ export default function Home() {
                                             <li className="home-showcase__card">
                                                 <div className="home-showcase__image">
                                                     <a href="index1.html" aria-label="page link">
-                                                        <img
+                                                        <Image
                                                             src="assets/images/home-showcase/home-showcase-1.jpg"
                                                             alt="nextmarketing"
                                                         />
@@ -384,7 +379,7 @@ export default function Home() {
                                             <li className="home-showcase__card">
                                                 <div className="home-showcase__image">
                                                     <a href="index2.html" aria-label="page link">
-                                                        <img
+                                                        <Image
                                                             src="assets/images/home-showcase/home-showcase-2.jpg"
                                                             alt="nextmarketing"
                                                         />
@@ -400,7 +395,7 @@ export default function Home() {
                                             <li className="home-showcase__card">
                                                 <div className="home-showcase__image">
                                                     <a href="index3.html" aria-label="page link">
-                                                        <img
+                                                        <Image
                                                             src="assets/images/home-showcase/home-showcase-3.jpg"
                                                             alt="nextmarketing"
                                                         />
@@ -415,7 +410,7 @@ export default function Home() {
                                             <li className="home-showcase__card">
                                                 <div className="home-showcase__image">
                                                     <a href="index4.html" aria-label="page link">
-                                                        <img
+                                                        <Image
                                                             src="assets/images/home-showcase/home-showcase-4.jpg"
                                                             alt="nextmarketing"
                                                         />
@@ -430,7 +425,7 @@ export default function Home() {
                                             <li className="home-showcase__card">
                                                 <div className="home-showcase__image">
                                                     <a href="index5.html" aria-label="page link">
-                                                        <img
+                                                        <Image
                                                             src="assets/images/home-showcase/home-showcase-5.jpg"
                                                             alt="nextmarketing"
                                                         />
@@ -446,7 +441,7 @@ export default function Home() {
                                             <li className="home-showcase__card">
                                                 <div className="home-showcase__image">
                                                     <a href="index1.html" aria-label="page link">
-                                                        <img
+                                                        <Image
                                                             src="assets/images/home-showcase/up-coming-showcase.png"
                                                             alt="nextmarketing"
                                                         />
@@ -546,12 +541,12 @@ export default function Home() {
                     {/* header 1 end and header2 start */}
                     <div className="sec-hero-res">
                         <div className="section-hero-three__mainimg">
-                            <img src="assets/images/banner/hero2-1.jpg" alt="nextmarketing" />
+                            <Image src="assets/images/banner/hero2-1.jpg" alt="nextmarketing" />
                         </div>
                         <div className="section-dashboard__playwrap">
                             <div className="section-dashboard__playbtn">
                                 <a href="https://www.youtube.com/watch?v=TKnufs85hXk" className="video-popup-link">
-                                    <img src="assets/images/shapes/play-btn1-1.png" alt="play" />
+                                    <Image src="assets/images/shapes/play-btn1-1.png" alt="play" />
                                 </a>
                             </div>
                             <div className="waves wave-1"></div>
@@ -561,16 +556,16 @@ export default function Home() {
 
                         <div className="sec-logo-hero-3">
                             <div className="section-hero-three__logcol">
-                                <img src="assets/images/shapes/comy-logo2-1.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/comy-logo2-1.png" alt="nextmarketing" />
                             </div>
                             <div className="section-hero-three__logcol">
-                                <img src="assets/images/shapes/comy-logo2-2.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/comy-logo2-2.png" alt="nextmarketing" />
                             </div>
                             <div className="section-hero-three__logcol">
-                                <img src="assets/images/shapes/comy-logo2-3.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/comy-logo2-3.png" alt="nextmarketing" />
                             </div>
                             <div className="section-hero-three__logcol">
-                                <img src="assets/images/shapes/comy-logo2-4.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/comy-logo2-4.png" alt="nextmarketing" />
                             </div>
                         </div>
                     </div>
@@ -626,42 +621,42 @@ export default function Home() {
                         </div>
                         <div className="services-list">
                             <div className="services-element">
-                                <img src="assets/images/shapes/seo-icon.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/seo-icon.png" alt="nextmarketing" />
                                 <h2>Search Engine Optimization</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
                             <div className="services-element">
-                                <img src="assets/images/shapes/social-media-icon.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/social-media-icon.png" alt="nextmarketing" />
                                 <h2>Social Media Marketing</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
                             <div className="services-element">
-                                <img src="assets/images/shapes/content-writing-icon.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/content-writing-icon.png" alt="nextmarketing" />
                                 <h2>Content Writing</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
                             <div className="services-element">
-                                <img src="assets/images/shapes/affiliate-marketing.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/affiliate-marketing.png" alt="nextmarketing" />
                                 <h2>Affiliate Marketing</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
                             <div className="services-element">
-                                <img src="assets/images/shapes/email-marketing-icon.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/email-marketing-icon.png" alt="nextmarketing" />
                                 <h2>Email Marketing</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
                             <div className="services-element">
-                                <img src="assets/images/shapes/pay-per-icon.svg" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/pay-per-icon.svg" alt="nextmarketing" />
                                 <h2>Pay-Per-Click Advertising</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
                             <div className="services-element">
-                                <img src="assets/images/shapes/cro-icon.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/cro-icon.png" alt="nextmarketing" />
                                 <h2>Conversion Rate Optimization</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
                             <div className="services-element">
-                                <img src="assets/images/shapes/e-commers-icon.png" alt="nextmarketing" />
+                                <Image src="assets/images/shapes/e-commers-icon.png" alt="nextmarketing" />
                                 <h2>E-commerce Marketing</h2>
                                 <p>Identify relevant and high-impact keywords for your industry.</p>
                             </div>
@@ -679,7 +674,7 @@ export default function Home() {
                                     </div>
                                     <div className="our-story">
                                         <p className="our-story-text">
-                                            Since 2012, we've been pioneering innovative solutions, crafting unique narratives, and consistently delivering exceptional results. Join us in shaping the future of digital excellence!
+                                            Since 2012, we&apos;ve been pioneering innovative solutions, crafting unique narratives, and consistently delivering exceptional results. Join us in shaping the future of digital excellence!
                                         </p>
                                         <ul className="our-story-list">
                                             <li>As Digital Innovation Leaders shaping digital future.</li>
@@ -692,7 +687,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 <div className="right-section-3">
-                                    <img
+                                    <Image
                                         src="assets/images/resource/our-story3-1.png"
                                         alt="nextmarketing"
                                         height="712"
@@ -720,7 +715,7 @@ export default function Home() {
                             </div>
                             <div className="img-4-container">
                                 <div className="sec-4-img">
-                                    <img
+                                    <Image
                                         src="assets/images/banner/hero2-1.jpg"
                                         alt="nextmarketing"
                                         width="1200"
@@ -732,7 +727,7 @@ export default function Home() {
                                     <div className="skill-flex">
                                         <div className="skills-list">
                                             <div className="section-team__feature-icon">
-                                                <img
+                                                <Image
                                                     src="assets/images/shapes/dynamic-team-icon.png"
                                                     alt="nextmarketing"
                                                 />
@@ -748,7 +743,7 @@ export default function Home() {
                                         </div>
                                         <div className="skills-list">
                                             <div className="section-team__feature-icon">
-                                                <img
+                                                <Image
                                                     src="assets/images/shapes/skills-icon.png"
                                                     alt="nextmarketing"
                                                 />
@@ -764,7 +759,7 @@ export default function Home() {
                                         </div>
                                         <div className="skills-list">
                                             <div className="section-team__feature-icon">
-                                                <img
+                                                <Image
                                                     src="assets/images/shapes/content-writing-icon.png"
                                                     alt="nextmarketing"
                                                 />
@@ -1177,7 +1172,7 @@ export default function Home() {
                                 <span className="sec-title__tagline">Pricing</span>
                                 <h2 className="sec-title__title-price">The Right Plan for every Business</h2>
                                 <p className="sec-title__text">
-                                    Discover flexible and transparent pricing options designed to meet the diverse needs of businesses, whether you're a startup, small business, or enterprise.
+                                    Discover flexible and transparent pricing options designed to meet the diverse needs of businesses, whether you&apos;re a startup, small business, or enterprise.
                                 </p>
                             </div>
 
@@ -1638,7 +1633,7 @@ export default function Home() {
                                         <div className="blog-one__item wow fadeIn" data-wow-delay={`${100 * (index + 1)}ms`}>
                                             <div className="blog-one__img">
                                                 <div className="blog-one__innerimg blog-one__img--overlay">
-                                                    <img src={post.imgSrc} data-src={post.imgSrc} alt="blog" width="424" height="484" />
+                                                    <Image src={post.imgSrc} data-src={post.imgSrc} alt="blog" width="424" height="484" />
                                                 </div>
                                                 <div className="blog-one__tagwrap blog-one__tagwrap--color position-absolute d-flex flex-wrap gap-1 z-2">
                                                     <span className="blog-one__tag">
@@ -1711,15 +1706,15 @@ export default function Home() {
                                         <div className="footer__locationbar row align-items-center">
                                             <div className="footer__locationbar__toplogo">
                                                 <div className="footer__logo">
-                                                    <img src="assets/images/logo-next.png" className="logo-dark" alt="next-logo" />
-                                                    <img src="assets/images/logo-light.png" className="logo-light" alt="next-logo-light" />
+                                                    <Image src="assets/images/logo-next.png" className="logo-dark" alt="next-logo" />
+                                                    <Image src="assets/images/logo-light.png" className="logo-light" alt="next-logo-light" />
                                                 </div>
                                             </div>
 
                                             <div className="footer__locationbar__wrap d-flex flex-wrap align-items-center">
                                                 <div className="footer__locationbar__address d-flex align-items-center">
                                                     <div className="footer__locationbar__icon">
-                                                        <img src="assets/images/shapes/google-map-pin.png" alt="nextmarketing" />
+                                                        <Image src="assets/images/shapes/google-map-pin.png" alt="nextmarketing" />
                                                     </div>
                                                     <div className="footer__locationbar__info">
                                                         <p className="footer__locationbar__text">
@@ -1731,7 +1726,7 @@ export default function Home() {
 
                                                 <div className="footer__locationbar__address d-flex align-items-center">
                                                     <div className="footer__locationbar__icon">
-                                                        <img src="assets/images/shapes/skills-icon.png" alt="nextmarketing" />
+                                                        <Image src="assets/images/shapes/skills-icon.png" alt="nextmarketing" />
                                                     </div>
                                                     <div className="footer__locationbar__info">
                                                         <ul className="reset-ul footer__locationbar__infolist">
