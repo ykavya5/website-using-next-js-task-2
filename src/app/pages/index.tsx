@@ -344,7 +344,7 @@ export default function Home() {
                                     </ul>
                                 </div>
                                 <div className="lets-talk">
-                                    <button><a href="#">Let's Talk</a></button>
+                                    <button><a href="#">Let&apos;s Talk</a></button>
                                 </div>
                             </div>
                         </div>
@@ -534,7 +534,7 @@ export default function Home() {
                                 </ul>
                             </div>
                             <div className="lets-talk-1">
-                                <button><a href="#">Let's Talk</a></button>
+                                <button><a href="#">Let&apos;s Talk</a></button>
                             </div>
                         </div>
                     </div>
